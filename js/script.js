@@ -46,7 +46,7 @@ $(document).ready(function () {
   var sto = $(".ssec").offset().top;
 
   $(window).scroll(function () {
-    if (window.pageYOffset > sto - $(window).height() + 200) {
+    if (window.pageYOffset > sto - $(window).height() + 500) {
       $(".chart").easyPieChart({
         //your options goes here
         easing: "easeInOut",
